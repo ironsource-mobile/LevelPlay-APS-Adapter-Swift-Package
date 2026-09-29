@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "APSAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/aps-adapter/5.11.0/ISAPSAdapter5.11.0.zip",
-      checksum: "87d5f74ea58397e6c2e8cf9c5022c6c6072ebe6fbbcfdeee5a38805dea2af350"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/aps-adapter/5.12.0/ISAPSAdapter5.12.0.zip",
+      checksum: "8a04b4dc9ab19384e6ec6ae5d462e92c619efea24f75f8ca46b5ef0f17e60e39"
     )
   ]
 )
