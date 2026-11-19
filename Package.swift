@@ -3,12 +3,12 @@ import PackageDescription
 
 let package = Package(
   name: "LevelPlay-APS-Adapter-Swift-Package",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v15)],
   products: [
     .library(name: "APSAdapter", targets: ["APSAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/amzn/swift-package-manager-amazon-aps", exact: "5.6.6"),
+    .package(url: "https://github.com/amzn/swift-package-manager-amazon-aps", exact: "5.7.0"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "APSAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/aps-adapter/5.13.0/ISAPSAdapter5.13.0.zip",
-      checksum: "b4bff71f3096ae99e21c1b48dddfd54699b7f49d1e7c3c0eaae56f9f08025199"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/aps-adapter/5.14.0/ISAPSAdapter5.14.0.zip",
+      checksum: "0b6b8d7c1f5fe86ad706ea2d5194b8dac325877ef739229ce9aeee817634dc54"
     )
   ]
 )
